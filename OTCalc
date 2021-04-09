@@ -1,0 +1,22 @@
+#This is coded in python
+#This is an assignment for Python for everyone and is for informative purposes only
+
+#Declared Variables
+
+H=input("Please enter the amount of hours worked: ")
+R=input("Please enter your Hourly Rate: ")
+Hours=float(H)
+Rate=float(R)
+
+#Below will be the if statement and calculations
+
+if Hours < 40:
+   Pay=Hours*Rate
+   print(Pay)
+else hours >= 40:
+   Pay=(Hours-40)*1.5*Rate
+   Opay=Hours*Rate
+   OvertimePay=Pay+Opay
+   print(OvertimePay)
+   
+
